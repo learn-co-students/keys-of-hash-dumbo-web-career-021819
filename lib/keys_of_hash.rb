@@ -1,6 +1,7 @@
 
 require "pry"
 class Hash
+ require "pry"
   def keys_of(*arguments)
     # code goes here
     
@@ -11,6 +12,7 @@ class Hash
           
           if x == val
             array.push(key)
+            binding.pry
           end
           
         end
