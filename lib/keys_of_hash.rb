@@ -12,7 +12,7 @@ class Hash
           
           if x == val
             array.push(key)
-            binding.pry
+            #binding.pry
           end
           
         end
